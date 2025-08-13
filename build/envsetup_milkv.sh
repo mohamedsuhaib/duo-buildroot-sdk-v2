@@ -631,7 +631,7 @@ function build_all()
       build_ivs_sdk || return $?
       build_tdl_sdk || return $?
     fi
-    build_pqtool_server || return $?
+    #build_pqtool_server || return $?
   fi
   pack_cfg || return $?
   pack_rootfs || return $?
